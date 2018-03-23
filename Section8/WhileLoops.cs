@@ -33,11 +33,6 @@ namespace Section8
             Console.WriteLine("pre decrement value is: {0}", --number);
         }
 
-
-
-
-
-     
         public void Test_Sentinel_Controlled_Loop()
         {
             //cannot test in a unit test environment
@@ -49,6 +44,23 @@ namespace Section8
             }
             Console.ReadKey();
 
+
+        }
+
+        [TestMethod]
+        public void Nested_Loops()
+        {
+            int number1 = 1;
+            int number2 = 1;
+            while(number1 <= 5)
+            {
+                while(number2 <= number1)
+                {
+                    Console.WriteLine(number2);
+                    number2++;
+                }//inner loop
+                number1++;
+            }//outer loop
 
         }
     }
