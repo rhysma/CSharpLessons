@@ -8,7 +8,7 @@ namespace Section12
     public class Exam
     {
         //In this exam, you must make the 2 tests below pass without changing a single line of code in the tests.
-        //You basically need to fix all of the compilation errors and make the tests pass.
+        //You basically need to fix all of the compilation errors and make the tests pass, without touching the tests.
         [TestMethod]
         public void TestMethod1()
         {
