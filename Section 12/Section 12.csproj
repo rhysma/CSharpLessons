@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B8A31E8-60A1-4DDF-98A4-003560F5F011}</ProjectGuid>
+    <ProjectGuid>{16EDB83F-E330-4270-8FC2-53893F863D76}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PolymorphismTest</RootNamespace>
-    <AssemblyName>PolymorphismTest</AssemblyName>
+    <RootNamespace>Section_12</RootNamespace>
+    <AssemblyName>Section 12</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,22 +48,19 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exam\AutoLoan.cs" />
-    <Compile Include="Exam\HomeLoan.cs" />
-    <Compile Include="Exam\Loan.cs" />
-    <Compile Include="Exam\ExamTest.cs" />
-    <Compile Include="InheritanceTest.cs" />
-    <Compile Include="Pen.cs" />
-    <Compile Include="Quiz\Lecture.cs" />
-    <Compile Include="Quiz\Musical.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="Quiz\Play.cs" />
+    <Compile Include="AthleticTeam.cs" />
+    <Compile Include="Exam\Exam.cs" />
+    <Compile Include="Exam\IPageObject.cs" />
+    <Compile Include="Exam\PageObjectOne.cs" />
+    <Compile Include="Exam\PageObjectOne1.cs" />
+    <Compile Include="IBudget.cs" />
+    <Compile Include="InterfaceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Quiz\QuizTicketTest.cs" />
-    <Compile Include="Quiz\Ticket.cs" />
+    <Compile Include="Rowing.cs" />
+    <Compile Include="Tennis.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Exam\packages.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
