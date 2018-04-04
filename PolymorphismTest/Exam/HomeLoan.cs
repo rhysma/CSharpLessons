@@ -12,9 +12,9 @@ namespace Section11
         private int yearBuilt;
         private int sqFootage;
 
-        public HomeLoan(string first, string last, double intRate, decimal prinBorrowed, double duration,
+        public HomeLoan(string number, string first, string last, double intRate, decimal prinBorrowed, double duration,
                    int yrBuilt, int sqFeet, string add)
-           : base(first, last, intRate, prinBorrowed, duration)
+           : base(number, first, last, intRate, prinBorrowed, duration)
         {
             YearBuilt = yrBuilt;
             SqFootage = sqFeet;

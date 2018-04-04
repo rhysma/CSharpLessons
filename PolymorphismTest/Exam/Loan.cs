@@ -8,7 +8,7 @@ namespace Section11
 {
     abstract class Loan
     {
-        private string LoanNumber;
+        private string loanNumber;
         private string customerFirst;
         private string customerLast;
         private double interestRate;
@@ -16,9 +16,10 @@ namespace Section11
         private double termYears;
 
 
-        public Loan(string first, string last,
+        public Loan(string number, string first, string last,
                       double rate, decimal amtBorrowed, double time)
         {
+            LoanNumber = number;
             CustomerFirst = first;
             CustomerLast = last;
             InterestRate = rate;
@@ -27,15 +28,15 @@ namespace Section11
         }
 
 
-        public string loanNumber
+        public string LoanNumber
         {
             get
             {
-                return LoanNumber;
+                return loanNumber;
             }
             set
             {
-                LoanNumber = value;
+                loanNumber = value;
             }
         }
 

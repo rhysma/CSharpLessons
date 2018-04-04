@@ -13,10 +13,10 @@ namespace Section11
         private string make;
         private string autoColor;
 
-        public AutoLoan(string first, string last, double intRate, decimal prinBorrowed,
+        public AutoLoan(string number, string first, string last, double intRate, decimal prinBorrowed,
                 double duration, int yr, string mod,
                 string carMake, string color)
-            : base(first, last, intRate, prinBorrowed, duration)
+            : base(number, first, last, intRate, prinBorrowed, duration)
         {
             YearBuilt = yr;
             Model = mod;
