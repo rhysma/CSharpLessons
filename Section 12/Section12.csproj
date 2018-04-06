@@ -7,8 +7,8 @@
     <ProjectGuid>{16EDB83F-E330-4270-8FC2-53893F863D76}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Section_12</RootNamespace>
-    <AssemblyName>Section 12</AssemblyName>
+    <RootNamespace>Section12</RootNamespace>
+    <AssemblyName>Section12</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -46,18 +46,25 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="WebDriver, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.11.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AthleticTeam.cs" />
     <Compile Include="Exam\Exam.cs" />
     <Compile Include="Exam\IPageObject.cs" />
+    <Compile Include="Exam\PageObjectTwo.cs" />
     <Compile Include="Exam\PageObjectOne.cs" />
-    <Compile Include="Exam\PageObjectOne1.cs" />
-    <Compile Include="IBudget.cs" />
+    <Compile Include="InterfaceSample.cs" />
     <Compile Include="InterfaceTest.cs" />
+    <Compile Include="ITransactions.cs" />
+    <Compile Include="ITraveler.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Professor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rowing.cs" />
-    <Compile Include="Tennis.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Transaction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Exam\packages.config" />

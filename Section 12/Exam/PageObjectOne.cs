@@ -1,7 +1,7 @@
 ﻿namespace Section12
 {
-    internal class PageObjectTwo : IPageObject
+    internal class PageObjectOne : IPageObject
     {
-        public string PageName => "Page Name 2";
+        public string PageName => "Page Name 1";
     }
 }
