@@ -17,7 +17,7 @@ namespace Section13.Quiz
         public void Calculate_BMI()
         {
             //setup variables to calculate BMI
-            string weight = "150a";
+            string weight = "150";
             string heightInFeet = "6";
             string heightInInches = "72";
             BodyMassIndexCalculator bmi = null;
