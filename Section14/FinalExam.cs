@@ -8,8 +8,33 @@ namespace Section14
     public class FinalExam
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Test_ComplicatedPage()
         {
+            ComplicatedPage compPage = new ComplicatedPage();
+            string pageName = compPage.PageName;
+            StringAssert.Equals(pageName, "Complicated Page");
+        }
+
+        [TestMethod]
+        public void Test_RandomStuff()
+        {
+            SectionOfRandomStuff random = new SectionOfRandomStuff();
+            random.FillForm();
+        }
+
+        [TestMethod]
+        public void Test_Buttons()
+        {
+            try
+            {
+                SectionOfButtons buttons = new SectionOfButtons();
+                buttons.Button.Click();
+            }
+            catch(NullReferenceException ex)
+            {
+                Console.WriteLine("Null reference to the button element " + ex.Message);
+            }
+           
         }
     }
 }

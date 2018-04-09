@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleFramework1
+namespace Section14
 {
     class ComplicatedPage : BasePage
     {

@@ -1,4 +1,4 @@
-﻿namespace SampleFramework1
+﻿namespace Section14
 {
     public class SectionOfButtons
     {
