@@ -23,17 +23,15 @@ namespace Section14
         }
 
         [TestMethod]
+        [ExpectedException(typeof(System.NullReferenceException))]
         public void Test_Buttons()
         {
-            try
-            {
-                SectionOfButtons buttons = new SectionOfButtons();
-                buttons.Button.Click();
-            }
-            catch(NullReferenceException ex)
-            {
-                Console.WriteLine("Null reference to the button element " + ex.Message);
-            }
+            
+            SectionOfButtons buttons = new SectionOfButtons();
+            buttons.Button.Click();
+           
+            Console.WriteLine("Null reference to the button element ");
+            
            
         }
     }
