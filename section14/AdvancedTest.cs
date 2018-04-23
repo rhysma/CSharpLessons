@@ -71,6 +71,7 @@ namespace section14
         {
             TestDelegate del = n => {string s = n + " World";
                 Console.WriteLine(s); };
+            del("Hello");
         }
 
     }
