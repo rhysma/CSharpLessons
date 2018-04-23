@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B55D262B-CED0-49CB-812F-4A8248412F25}</ProjectGuid>
+    <ProjectGuid>{311AE4AB-B86A-467B-A4CF-A8F8949EC7DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>section14</RootNamespace>
-    <AssemblyName>section14</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>Section14</RootNamespace>
+    <AssemblyName>Section14</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
@@ -48,10 +48,14 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CastingClasses.cs" />
-    <Compile Include="DelegateDemo.cs" />
-    <Compile Include="AdvancedTest.cs" />
+    <Compile Include="BasePage.cs" />
+    <Compile Include="ComplicatedPage.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="FinalExam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SectionOfButtons.cs" />
+    <Compile Include="SectionOfRandomStuff.cs" />
+    <Compile Include="SectionOfSocialMedia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -32,12 +32,14 @@ namespace UnitTestPractice
         }
 
         [TestMethod]
+        [TestCategory("Nightly"), TestCategory("Weekly")]
         public void TestMethod1()
         {
             Assert.IsTrue(true);
         }
 
         [TestMethod]
+        [TestCategory("Nightly")]
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @"Data\data.csv", "Data#csv", DataAccessMethod.Sequential)]
         public void DataTestingCSV()
         {

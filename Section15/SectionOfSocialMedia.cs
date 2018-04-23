@@ -1,4 +1,4 @@
-﻿namespace Section14
+﻿namespace section15
 {
     public class SectionOfSocialMedia
     {

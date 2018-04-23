@@ -11,6 +11,7 @@ namespace ClassLibraryTest
         {
             int result = ClassLibraryPractice.Class1.Addition(10, 5);
             Assert.AreEqual(result, 15);
+
         }
     }
 }
