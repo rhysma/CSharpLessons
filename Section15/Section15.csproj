@@ -48,14 +48,19 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasePage.cs" />
-    <Compile Include="ComplicatedPage.cs" />
-    <Compile Include="Element.cs" />
-    <Compile Include="FinalExam.cs" />
+    <Compile Include="Final Exam 1\BasePage.cs" />
+    <Compile Include="Final Exam 1\ComplicatedPage.cs" />
+    <Compile Include="Final Exam 1\Element.cs" />
+    <Compile Include="Final Exam 1\FinalExam.cs" />
+    <Compile Include="Final Exam 2\Housing.cs" />
+    <Compile Include="Final Exam 2\IUnits.cs" />
+    <Compile Include="Final Exam 2\MultiUnits.cs" />
+    <Compile Include="Final Exam 2\SingleFamily.cs" />
+    <Compile Include="Final Exam 2\HousingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SectionOfButtons.cs" />
-    <Compile Include="SectionOfRandomStuff.cs" />
-    <Compile Include="SectionOfSocialMedia.cs" />
+    <Compile Include="Final Exam 1\SectionOfButtons.cs" />
+    <Compile Include="Final Exam 1\SectionOfRandomStuff.cs" />
+    <Compile Include="Final Exam 1\SectionOfSocialMedia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -52,6 +52,8 @@
     <Compile Include="DelegateDemo.cs" />
     <Compile Include="AdvancedTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuizTest.cs" />
+    <Compile Include="RegularExpressionsTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

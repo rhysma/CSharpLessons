@@ -7,6 +7,8 @@ namespace UnitTestPractice
     public class IntroTesting
     {
         [TestMethod]
+        [Description("This test checks two numbers for equality")]
+        
         public void Integers_Are_Equal()
         {
             int someNumber = 10;
