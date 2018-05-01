@@ -60,21 +60,15 @@ namespace section14
         [TestMethod]
         public void TestDOB()
         {
-            int day = 29;
+            int day = 28;
             int month = 12;
             int year = 1998;
              
             string dob = Convert.ToString(month) + "/" + Convert.ToString(day) + "/" + Convert.ToString(year);
-            string pattern = @"\d{1,2}/\d{1,2}/\d{4}";
+            string pattern = @"^(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d$";
             bool response = Regex.IsMatch(dob, pattern);
-            if (response)
-            {
-                Assert.IsTrue(response);
-            }
-            else
-            {
-                Console.WriteLine("Validation problem with date of birth");
-            }
+            Assert.IsTrue(response, "Validation problem with date of birth");
+
         }
 
         [TestMethod]
