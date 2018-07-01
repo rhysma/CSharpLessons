@@ -5,6 +5,7 @@ using System.Collections.Generic;
 namespace section14
 {
     [TestClass]
+    [TestCategory("Delegates")]
     public class AdvancedTest
     {
         [TestMethod]
