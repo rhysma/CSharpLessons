@@ -23,7 +23,21 @@ namespace HelloWorld
 
             string response = "Your name is: " + userFirstname + 
                               " and you are " + age + " years old";
+            response = $"Your name is: {userFirstname} and you are {age} years old";
             Console.WriteLine(response);
+
+
+            //FORMATTING TEST FOR OUTPUT
+            //double pricePerOunce = 17.36;
+            //var outputString = "The current price is " + pricePerOunce;
+            //var outputString = string.Format("The current price is {0}", pricePerOunce);
+            //var outputString = string.Format("The current price is {0:C}", pricePerOunce);
+
+            //string itemName = "Widget";
+            //var outputString = string.Format("{0,10} {1,10}", itemName, pricePerOunce);
+            //Console.WriteLine(String.Format("{0,10} {1,10}", "Item Name", "Price"));
+
+            //Console.WriteLine(outputString);
         }
     }
 }
