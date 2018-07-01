@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Getting started", "1 Gett
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Programming basics", "3 Programming basics", "{2B1C921C-ABB9-4555-80B1-5DEF589E26FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 4", "Section 4", "{82EFA7B0-C708-4E76-972B-501C3AD61152}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Unit testing project", "4 Unit testing project", "{82EFA7B0-C708-4E76-972B-501C3AD61152}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 5", "Section 5", "{790BCFE8-3E17-4758-91BB-91E6E632EB47}"
 EndProject
@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryTest", "Section
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section3", "Section3\Section3.csproj", "{F75BB746-8D1D-4635-AB49-5116CBCC11AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section4", "Section4\UnitTestPractice\Section4.csproj", "{B198147C-BFEC-4A15-83A0-6CBC2625DD48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestPractice", "Section4\UnitTestPractice\UnitTestPractice.csproj", "{B198147C-BFEC-4A15-83A0-6CBC2625DD48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section5", "Section5\Section5\Section5.csproj", "{7BBCF357-D28B-46DA-9295-FCD270BD3A68}"
 EndProject

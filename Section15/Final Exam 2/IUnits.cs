@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Section14.Final_Exam_2
+﻿namespace Section14.Final_Exam_2
 {
     interface IUnits
     {

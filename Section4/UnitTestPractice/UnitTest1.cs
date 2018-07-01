@@ -1,10 +1,9 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestPractice
 {
     [TestClass]
-    public class IntroTesting
+    public class UnitTest1
     {
         [TestMethod]
         [Description("This test checks two numbers for equality")]

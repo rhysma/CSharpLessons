@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 delegate void Procedure();
 public delegate int PerformCalculation(int x, int y);
 
